@@ -1,0 +1,210 @@
+
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+
+.block{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 15px;
+	background: url('../img/fon0.jpg') 0 0/100% fixed;
+}
+
+.oblique{
+	padding: 7px 0 0 0;
+	font-size: 30px;
+	font-style: oblique;
+	text-align: center;
+	text-shadow: 2px 2px 1px #000000;
+	color: #8B0000;
+	margin: 15px 10px 0px 10px;
+	height: 50px;
+	font-weight:900;
+	border: 1px solid #000;
+	border-radius: 100px;
+	box-shadow: 1px 1px 8px 1px #000;
+	opacity: 0.9;
+	background: url('../img/fon1.jpg');
+}
+
+.textalign{
+	text-align: center;
+	margin: 35px 15px 20px 15px;
+	font-weight: 600;
+	font-size: 15px;
+}
+
+.img{
+	height: 420px;
+	width: 800px;
+	float: left;
+	border: 1px solid #000;
+	border-radius: 50%;
+	margin:0px 0px 0px 25px;
+}
+
+.fs{
+	font-size: 13px;
+	font-style: oblique;
+}
+
+.textdecor{
+	font-size: 25px;
+	text-decoration: underline;
+	pading: 100px;
+	margin: 30px 0px 0px 950px;
+	font-weight:700;
+}
+
+.lspace1{
+	letter-spacing: 4px;
+	margin: 30px 0px 0px 900px;
+	font-weight:700;
+}
+
+.list{
+	margin: 20px 10px 10px 870px;
+	font-family:serif;
+	font-size: 16px;
+	line-height:18px;
+}
+/*
+.list li{
+	background: url('../img/icons/li.svg') left no-repeat;
+	padding: 0 0 0 20px;
+	font-weight:600;
+}
+*/
+
+.list li{
+	font-weight:600;
+}
+.list li:before{
+	content:'';
+	background-color: red;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 0 10px 0 0;
+}
+.list li:hover:before{
+	background-color: yellow;
+}
+
+.display{
+	margin: 40px 0px 20px 250px;
+	font-size: 20px;
+	font-weight:700;
+}
+
+.link:hover{
+	color:red;
+	text-decoration: underline;
+}
+
+
+.arial{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	background: url('../img/fon2.jpg') fixed;
+}
+
+.lspace2{
+	font-size: 32px;
+	letter-spacing: 6px;
+	text-shadow: 3px 3px 3px #000000;
+	color: red;
+	font-weight:900;
+	margin:15px 0px 0px 20px;
+}
+
+.fonts{
+	font-style: oblique;
+	font-size: 17px;
+	text-decoration: underline;
+	margin:20px 0px 0px 20px;
+}
+
+.bigred{
+	color: #FF0000;
+	text-decoration: underline;
+	font-weight:600;
+}
+
+.border{
+	margin: 20px 0px 0px 20px;
+	border: 1px solid #000;
+}
+.border:focus{
+	box-shadow: 1px 1px 14px rgba(0,0,0,1);
+}
+
+.radio-f{
+	margin:  15px 0px 0px 15px;
+}
+
+.period{
+	margin: 10px 0px 0px 15px;
+	border: 1px solid #000;
+}
+
+
+.finish{
+	font-size: 18px;
+	margin: 10px 0px 20px 15px;
+	border: 2px solid #000;
+	border-radius: 30px;
+	color:red;
+	background-color: #666; 
+}
+.finish:hover{
+	color: yellow;
+	background-color: #333;
+}
+.finish:active{
+	background-color: #eee;
+
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,64 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык сщдержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>Регистрация</title>
+		<!-- Кодировка страницы -->
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body class="arial">
+		<form action="#" method="post" enctype="multipart/form-data">
+		<div>
+			<h1 class="lspace2">Регистрация</h1>
+			<p class="fonts">Имя пользователя:</p>
+			<input class="border" tabindex="1" placeholder="Придумайте имя" type="text" name="Userpass" />
+		</div>
+		<div>
+			<p class="fonts">Пароль:</p>
+			<input class="border" tabindex="2" placeholder="Придумайте пароль" type="password" name="Userpass" />
+		</div>
+		<br />
+		<div>
+			<input class="border" tabindex="3" placeholder="Введите пароль еще раз" type="password" name="Userpass" />
+		</div>
+		<div>
+		<p class="fonts">Укажите пол:</p>
+			<input class="radio-f" tabindex="4" type="radio" name="Gender" value="male" /> Мужской
+			<input class="radio-f" tabindex="4" type="radio" name="Gender" value="female" /> Женский
+		</div>
+		<br />
+		<div>
+			<p class="fonts">Номер телефона:</p>
+			<input class="border" tabindex="5" placeholder="+380991111111" type="tel" name="userphone" />
+		</div>
+		<br />
+		<div>
+			<p class="fonts">Расскажите не много о себе для других пользователей:</p>
+			<textarea class="border" tabindex="6" name="text" placeholder="Пару слов о себе"></textarea>
+		</div>
+		<br />
+		<div>
+			<p class="fonts">Добавьте аватар:</p>
+			<input class="radio-f" tabindex="7" type="file" name="foto">
+		</div>
+		<div>
+			<p class="radio-f">Подписка на рецепты является платной, <span class="bigred">сейчас вы можете получить скидку в 50%</span> или получить пробную версию на 7 дней.</p>
+			<select class="period" name="subscription">
+				<option value="free">Пробный период</option>
+				<option selected value="paid">Подписка на месяц</option>
+			</select>
+		</div>
+		<br />
+		<div>
+			<button class="finish" type="submit">Принять</button>
+			<button class="finish" type="reset">Очистить</button>
+		</div>
+
+		</form>
+	</body>
+</html>
